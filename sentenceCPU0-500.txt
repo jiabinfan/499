@@ -1,0 +1,516 @@
+
+mcts: ['a', 'man', 'in', 'an', 'orange', 'hat', '<unk>', 'something', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'an', 'orange', 'hat', 'is', '<unk>', 'something', '.', '<eos>']
+gt: ['a', 'man', 'in', 'an', 'orange', 'hat', 'starring', 'at', 'something', '.']
+
+mcts: ['a', '<unk>', 'dog', 'runs', 'on', 'a', 'green', 'grass', 'field', 'in', 'front', 'of', 'a', 'white', 'fence', '.', '<eos>']
+greedy: ['a', 'boston', '<unk>', 'runs', 'on', 'a', 'green', 'grass', 'field', 'in', 'front', 'of', 'a', 'white', 'fence', '.', '<eos>']
+gt: ['a', 'boston', 'terrier', 'is', 'running', 'on', 'lush', 'green', 'grass', 'in', 'front', 'of', 'a', 'white', 'fence', '.']
+
+mcts: ['a', 'girl', 'in', 'a', 'karate', 'uniform', 'is', 'kicking', 'a', 'board', 'with', 'a', 'board', '.', '<eos>']
+greedy: ['a', 'girl', 'in', 'a', 'karate', 'uniform', 'is', 'kicking', 'a', 'board', 'with', 'a', 'board', '.', '<eos>']
+gt: ['a', 'girl', 'in', 'karate', 'uniform', 'breaking', 'a', 'stick', 'with', 'a', 'front', 'kick', '.']
+
+mcts: ['five', 'people', 'in', 'winter', 'jackets', 'and', 'helmets', 'are', 'standing', 'in', 'the', 'snow', 'with', '<unk>', 'in', 'the', 'background', '.', '<eos>']
+greedy: ['five', 'people', 'in', 'winter', 'jackets', 'and', 'helmets', 'are', 'standing', 'in', 'the', 'snow', 'with', '<unk>', 'in', 'the', 'background', '.', '<eos>']
+gt: ['five', 'people', 'wearing', 'winter', 'jackets', 'and', 'helmets', 'stand', 'in', 'the', 'snow', ',', 'with', 'snowmobiles', 'in', 'the', 'background', '.']
+
+mcts: ['people', 'on', 'roof', 'of', 'a', 'house', '.', '<eos>']
+greedy: ['people', 'fixing', 'the', 'roof', 'of', 'a', 'house', '.', '<eos>']
+gt: ['people', 'are', 'fixing', 'the', 'roof', 'of', 'a', 'house', '.']
+
+mcts: ['a', 'bright', 'man', 'in', 'a', 'group', 'of', 'men', 'dressed', 'in', 'shorts', 'and', 'hats', 'are', 'standing', 'around', 'a', 'woman', 'in', 'a', 'dark', 'colored', 'suits', 'and', 'standing', 'around', 'a', 'woman', '.', '<eos>']
+greedy: ['a', 'brightly', 'dressed', 'man', 'in', 'a', 'group', 'of', 'men', 'in', 'suits', 'and', 'dark', 'hats', 'are', 'standing', 'around', 'a', 'woman', 'in', 'a', 'dark', 'colored', 'suits', 'and', 'standing', 'around', 'a', 'flower', 'dress', '.', '<eos>']
+gt: ['a', 'man', 'in', 'light', 'colored', 'clothing', 'photographs', 'a', 'group', 'of', 'men', 'wearing', 'dark', 'suits', 'and', 'hats', 'standing', 'around', 'a', 'woman', 'dressed', 'in', 'a', 'strapless', 'gown', '.']
+
+mcts: ['a', 'group', 'of', 'people', 'standing', 'in', 'front', 'of', 'an', 'igloo', '<eos>']
+greedy: ['a', 'group', 'of', 'people', 'standing', 'in', 'front', 'of', 'an', 'igloo', '<eos>']
+gt: ['a', 'group', 'of', 'people', 'standing', 'in', 'front', 'of', 'an', 'igloo', '.']
+
+mcts: ['a', 'young', 'boy', 'in', 'a', 'red', 'jersey', 'trying', 'to', 'catch', 'the', 'base', 'as', 'the', 'blue', 'jersey', 'tries', 'to', 'catch', 'him', '.', '<eos>']
+greedy: ['a', 'boy', 'in', 'a', 'red', 'jersey', 'trying', 'to', 'catch', 'the', 'base', 'as', 'the', 'base', 'player', 'in', 'the', 'blue', 'jersey', 'tries', 'to', 'catch', 'him', '.', '<eos>']
+gt: ['a', 'boy', 'in', 'a', 'red', 'uniform', 'is', 'attempting', 'to', 'avoid', 'getting', 'out', 'at', 'home', 'plate', ',', 'while', 'the', 'catcher', 'in', 'the', 'blue', 'uniform', 'is', 'attempting', 'to', 'catch', 'him', '.']
+
+mcts: ['a', 'guy', 'working', 'on', 'a', 'building', '.', '<eos>']
+greedy: ['a', 'guy', 'working', 'on', 'a', 'building', '.', '<eos>']
+gt: ['a', 'guy', 'works', 'on', 'a', 'building', '.']
+
+mcts: ['a', 'man', 'in', 'a', 'vest', 'is', 'sitting', 'on', 'a', 'chair', 'holding', 'magazines', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'a', 'vest', 'is', 'sitting', 'on', 'a', 'chair', 'holding', 'magazines', '.', '<eos>']
+gt: ['a', 'man', 'in', 'a', 'vest', 'is', 'sitting', 'in', 'a', 'chair', 'and', 'holding', 'magazines', '.']
+
+mcts: ['a', 'mother', 'and', 'her', 'young', 'son', 'enjoying', 'a', 'beautiful', 'day', 'outdoors', '.', '<eos>']
+greedy: ['a', 'mother', 'and', 'her', 'young', 'son', 'enjoying', 'a', 'beautiful', 'day', 'outdoors', '.', '<eos>']
+gt: ['a', 'mother', 'and', 'her', 'young', 'song', 'enjoying', 'a', 'beautiful', 'day', 'outside', '.']
+
+mcts: ['men', 'playing', 'volleyball', ',', 'one', 'man', ',', 'one', 'man', 'is', '<unk>', 'the', 'ball', ',', 'while', 'his', 'teammate', 'is', '<unk>', 'his', 'hands', 'in', 'the', 'air', '.', '<eos>']
+greedy: ['men', 'playing', 'volleyball', ',', 'one', 'man', ',', 'one', 'man', ',', '<unk>', 'the', 'ball', ',', 'while', 'his', 'teammate', 'is', '<unk>', 'his', 'hands', 'in', 'the', 'air', '.', '<eos>']
+gt: ['men', 'playing', 'volleyball', ',', 'with', 'one', 'player', 'missing', 'the', 'ball', 'but', 'hands', 'still', 'in', 'the', 'air', '.']
+
+mcts: ['a', 'woman', 'holding', 'a', 'bowl', 'of', 'food', 'in', 'a', 'kitchen', '.', '<eos>']
+greedy: ['a', 'woman', 'holding', 'a', 'bowl', 'of', 'food', 'in', 'a', 'kitchen', '.', '<eos>']
+gt: ['a', 'woman', 'holding', 'a', 'bowl', 'of', 'food', 'in', 'a', 'kitchen', '.']
+
+mcts: ['a', 'man', 'sitting', 'at', 'a', 'table', 'in', 'his', 'tool', ',', 'working', 'with', 'a', 'tool', '.', '<eos>']
+greedy: ['a', 'man', 'sitting', 'at', 'a', 'table', 'in', 'his', 'tool', ',', 'working', 'with', 'a', 'tool', '.', '<eos>']
+gt: ['man', 'sitting', 'using', 'tool', 'at', 'a', 'table', 'in', 'his', 'home', '.']
+
+mcts: ['three', 'people', 'are', 'sitting', 'in', 'a', 'cave', '.', '<eos>']
+greedy: ['three', 'people', 'are', 'sitting', 'in', 'a', 'cave', '.', '<eos>']
+gt: ['three', 'people', 'sit', 'in', 'a', 'cave', '.']
+
+mcts: ['a', 'girl', 'in', 'a', '<unk>', 'is', 'walking', 'on', 'a', 'beam', '.', '<eos>']
+greedy: ['a', 'girl', 'in', 'a', '<unk>', 'walks', 'on', 'a', 'beam', '.', '<eos>']
+gt: ['a', 'girl', 'in', 'a', 'jean', 'dress', 'is', 'walking', 'along', 'a', 'raised', 'balance', 'beam', '.']
+
+mcts: ['a', 'woman', 'is', 'holding', 'a', 'man', 'in', 'the', 'sand', '.', '<eos>']
+greedy: ['a', 'woman', 'holding', 'a', 'man', 'in', 'the', 'sand', '.', '<eos>']
+gt: ['a', 'blond', 'holding', 'hands', 'with', 'a', 'guy', 'in', 'the', 'sand', '.']
+
+mcts: ['a', 'woman', 'in', 'a', 'gray', 'sweater', 'and', 'black', 'baseball', 'cap', 'stands', 'in', 'a', 'store', '.', '<eos>']
+greedy: ['a', 'woman', 'in', 'a', 'gray', 'sweater', 'and', 'black', 'baseball', 'cap', 'stands', 'in', 'a', 'store', '.', '<eos>']
+gt: ['a', 'woman', 'in', 'a', 'gray', 'sweater', 'and', 'black', 'baseball', 'cap', 'is', 'standing', 'in', 'line', 'at', 'a', 'shop', '.']
+
+mcts: ['the', 'person', 'in', 'the', 'striped', 'shirt', 'is', 'climbing', 'a', 'mountain', '.', '<eos>']
+greedy: ['the', 'person', 'in', 'the', 'striped', 'shirt', 'is', 'climbing', 'a', 'mountain', '.', '<eos>']
+gt: ['the', 'person', 'in', 'the', 'striped', 'shirt', 'is', 'mountain', 'climbing', '.']
+
+mcts: ['two', 'men', '<unk>', 'as', 'they', 'look', 'on', '.', '<eos>']
+greedy: ['two', 'men', '<unk>', 'as', 'they', 'look', 'on', '.', '<eos>']
+gt: ['two', 'men', 'pretend', 'to', 'be', 'statutes', 'while', 'women', 'look', 'on', '.']
+
+mcts: ['people', 'standing', 'in', 'front', 'of', 'a', 'building', '.', '<eos>']
+greedy: ['people', 'standing', 'in', 'front', 'of', 'a', 'building', '.', '<eos>']
+gt: ['people', 'standing', 'outside', 'of', 'a', 'building', '.']
+
+mcts: ['a', 'teenage', 'girl', 'is', 'playing', 'a', 'trumpet', 'in', 'a', 'field', '.', '<eos>']
+greedy: ['a', 'teenage', 'girl', 'plays', 'a', 'trumpet', 'in', 'the', 'field', '.', '<eos>']
+gt: ['a', 'teenager', 'plays', 'her', 'trumpet', 'on', 'the', 'field', 'at', 'a', 'game', '.']
+
+mcts: ['a', 'woman', 'doing', 'a', 'flip', 'on', 'a', 'trampoline', 'at', 'the', 'beach', '.', '<eos>']
+greedy: ['a', 'woman', 'doing', 'a', 'flip', 'on', 'a', 'trampoline', 'at', 'the', 'beach', '.', '<eos>']
+gt: ['a', 'woman', 'does', 'a', 'somersault', 'on', 'a', 'trampoline', 'on', 'the', 'beach', '.']
+
+mcts: ['a', 'man', 'stands', 'at', 'a', 'bar', 'and', 'violin', '.', '<eos>']
+greedy: ['a', 'man', 'stands', 'at', 'a', 'bar', 'with', 'some', 'violin', '.', '<eos>']
+gt: ['a', 'man', 'is', 'standing', 'by', 'a', 'group', 'of', 'video', 'games', 'in', 'a', 'bar', '.']
+
+mcts: ['a', 'woman', 'uses', 'an', 'electric', 'drill', 'while', 'a', 'man', 'is', 'taking', 'a', 'picture', 'of', 'him', '.', '<eos>']
+greedy: ['a', 'woman', 'uses', 'an', 'drill', 'to', 'take', 'a', 'picture', 'while', 'a', 'man', 'takes', 'a', 'picture', 'of', 'him', '.', '<eos>']
+gt: ['a', 'woman', 'uses', 'a', 'drill', 'while', 'another', 'man', 'takes', 'her', 'picture', '.']
+
+mcts: ['a', 'woman', 'in', 'a', 'pink', 'sweater', 'and', 'a', 'pink', 'apron', 'is', 'cleaning', 'a', 'table', 'with', 'a', 'sponge', '.', '<eos>']
+greedy: ['a', 'woman', 'in', 'a', 'pink', 'sweater', 'and', 'a', 'pink', 'apron', 'is', 'cleaning', 'a', 'table', 'with', 'a', 'sponge', '.', '<eos>']
+gt: ['a', 'woman', 'in', 'a', 'pink', 'sweater', 'and', 'an', 'apron', ',', 'cleaning', 'a', 'table', 'with', 'a', 'sponge', '.']
+
+mcts: ['a', 'man', 'is', 'cutting', 'some', 'some', 'leaves', '.', '<eos>']
+greedy: ['a', 'man', 'is', 'cutting', 'some', 'leaves', 'from', 'trees', '.', '<eos>']
+gt: ['a', 'man', 'cutting', 'branches', 'of', 'trees', '.']
+
+mcts: ['a', 'group', 'of', 'asian', 'boys', 'waiting', 'on', 'the', 'grill', 'that', 'is', '<unk>', 'to', 'meat', '.', '<eos>']
+greedy: ['a', 'group', 'of', 'asian', 'boys', 'waiting', 'on', 'the', 'grill', 'that', 'is', '<unk>', 'to', 'meat', '.', '<eos>']
+gt: ['group', 'of', 'asian', 'boys', 'wait', 'for', 'meat', 'to', 'cook', 'over', 'barbecue', '.']
+
+mcts: ['woman', 'wearing', 'traditional', 'clothing', 'play', 'the', 'various', 'lives', '.', '<eos>']
+greedy: ['women', 'wearing', 'traditional', 'traditional', 'clothing', 'play', 'the', 'lives', '.', '<eos>']
+gt: ['women', ',', 'wearing', 'traditional', 'clothing', ',', 'are', 'reenacting', 'native', 'life', '.']
+
+mcts: ['a', 'man', 'is', 'pushing', 'a', 'man', 'down', 'the', 'face', 'of', 'another', 'man', "'s", 'face', 'while', 'on', '.', '<eos>']
+greedy: ['a', 'man', 'pushes', 'a', 'man', "'s", 'head', 'down', 'to', 'hit', 'another', 'man', "'s", 'face', '.', '<eos>']
+gt: ['one', 'man', 'holds', 'another', 'man', "'s", 'head', 'down', 'and', 'prepares', 'to', 'punch', 'him', 'in', 'the', 'face', '.']
+
+mcts: ['six', 'people', 'are', 'riding', 'through', 'a', 'mountain', 'bike', 'race', 'covered', 'in', 'dirt', '.', '<eos>']
+greedy: ['six', 'people', 'riding', 'through', 'a', 'mountain', 'bike', 'race', 'covered', 'in', 'mountains', '.', '<eos>']
+gt: ['six', 'people', 'ride', 'mountain', 'bikes', 'through', 'a', 'jungle', 'environment', '.']
+
+mcts: ['2', 'blond', '-', 'haired', 'girls', 'sit', 'on', 'a', 'rock', 'in', 'a', 'busy', 'square', '.', '<eos>']
+greedy: ['2', 'blond', 'girls', 'sit', 'on', 'a', 'rock', 'in', 'a', 'busy', 'square', '.', '<eos>']
+gt: ['2', 'blond', 'girls', 'are', 'sitting', 'on', 'a', 'ledge', 'in', 'a', 'crowded', 'plaza', '.']
+
+mcts: ['a', 'child', 'is', 'splashing', 'in', 'the', 'water', '.', '<eos>']
+greedy: ['a', 'child', 'splashing', 'in', 'the', 'water', '.', '<eos>']
+gt: ['a', 'child', 'is', 'splashing', 'in', 'the', 'water']
+
+mcts: ['three', 'people', 'sit', 'on', 'a', 'picnic', 'table', 'in', 'front', 'of', 'a', 'white', 'building', 'with', 'jack', '<unk>', '.', '<eos>']
+greedy: ['three', 'people', 'sit', 'at', 'a', 'picnic', 'table', 'in', 'front', 'of', 'a', 'white', 'building', 'with', 'words', '.', '<eos>']
+gt: ['three', 'people', 'sit', 'at', 'a', 'picnic', 'table', 'outside', 'of', 'a', 'building', 'painted', 'like', 'a', 'union', 'jack', '.']
+
+mcts: ['three', 'boys', 'are', 'standing', 'in', 'their', 'bathing', 'suits', 'on', 'a', 'pier', '.', '<eos>']
+greedy: ['3', 'boys', 'are', 'standing', 'in', 'their', 'bathing', 'suits', 'on', 'a', 'pier', '.', '<eos>']
+gt: ['3', 'boys', 'are', 'standing', 'on', 'a', 'pier', 'in', 'their', 'bathing', 'suits', '.']
+
+mcts: ['a', '<unk>', 'is', 'hands', 'a', 'woman', 'in', 'a', 'market', 'while', 'a', 'fish', 'looks', 'at', 'fish', '.', '<eos>']
+greedy: ['a', 'female', 'hands', 'a', 'woman', 'in', 'a', 'market', 'while', 'an', 'ice', 'cream', 'view', 'from', 'a', 'market', '.', '<eos>']
+gt: ['an', 'employee', 'is', 'handing', 'a', 'woman', 'a', 'bag', 'while', 'she', 'is', 'browsing', 'through', 'fish', 'on', 'ice', 'at', 'a', 'street', 'market', '.']
+
+mcts: ['a', 'beautiful', 'woman', 'playing', 'a', 'harp', '.', '<eos>']
+greedy: ['a', 'beautiful', 'woman', 'playing', 'harp', '.', '<eos>']
+gt: ['a', 'pretty', 'woman', 'plays', 'a', 'harpsichord', '.']
+
+mcts: ['a', '<unk>', 'in', 'a', 'uniform', 'looks', 'at', 'a', 'fence', 'behind', 'the', 'camera', 'in', 'front', 'of', 'a', 'fence', '.', '<eos>']
+greedy: ['a', 'building', 'looks', 'at', 'a', 'fence', 'in', 'front', 'of', 'a', 'fence', 'behind', 'the', 'camera', '.', '<eos>']
+gt: ['outside', 'a', 'building', ',', 'a', 'uniformed', 'security', 'guard', 'looks', 'at', 'the', 'camera', 'from', 'behind', 'a', 'fence', '.']
+
+mcts: ['the', 'young', 'lady', 'is', 'looking', 'at', 'pizza', '.', '<eos>']
+greedy: ['the', 'young', 'lady', 'is', 'looking', 'at', 'pizza', '.', '<eos>']
+gt: ['the', 'young', 'lady', 'is', 'looking', 'at', 'the', 'pizza', '.']
+
+mcts: ['a', 'shirtless', 'man', 'and', 'shorts', 'is', 'standing', 'on', 'rocks', 'and', 'fishing', '.', '<eos>']
+greedy: ['a', 'shirtless', 'man', 'and', 'shorts', 'is', 'standing', 'on', 'rocks', 'and', 'fishing', '.', '<eos>']
+gt: ['a', 'shirtless', 'man', 'in', 'shorts', 'is', 'fishing', 'while', 'standing', 'on', 'some', 'rocks', '.']
+
+mcts: ['a', 'girl', 'in', 'a', 'life', 'jacket', 'floating', 'in', 'the', 'water', '.', '<eos>']
+greedy: ['a', 'girl', 'in', 'a', 'life', 'jacket', 'floating', 'in', 'the', 'water', '.', '<eos>']
+gt: ['a', 'girl', 'wearing', 'a', 'life', 'vest', 'floats', 'in', 'water', '.']
+
+mcts: ['a', 'man', 'in', 'a', 'uniform', 'and', 'a', 'man', 'in', 'a', 'blue', 'shirt', 'are', 'standing', 'in', 'front', 'of', 'a', 'cart', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'a', 'uniform', 'and', 'a', 'man', 'in', 'a', 'blue', 'shirt', 'are', 'standing', 'in', 'front', 'of', 'a', 'cart', '.', '<eos>']
+gt: ['a', 'man', 'in', 'uniform', 'and', 'a', 'man', 'in', 'a', 'blue', 'shirt', 'are', 'standing', 'in', 'front', 'of', 'a', 'truck', '.']
+
+mcts: ['people', 'are', 'sitting', 'on', 'a', 'train', '.', '<eos>']
+greedy: ['people', 'sitting', 'on', 'a', 'train', '.', '<eos>']
+gt: ['people', 'sit', 'inside', 'a', 'train', '.']
+
+mcts: ['a', 'boy', 'swings', 'his', 'feet', 'in', 'the', 'air', 'in', 'a', 'forest', '.', '<eos>']
+greedy: ['a', 'boy', 'swings', 'his', 'feet', 'in', 'the', 'air', 'in', 'a', 'forest', '.', '<eos>']
+gt: ['a', 'kid', 'swings', 'with', 'his', 'feet', 'up', 'in', 'the', 'air', 'in', 'a', 'forest', '.']
+
+mcts: ['a', 'man', 'in', 'a', 'red', 'shirt', 'is', 'competing', 'in', 'a', '<unk>', 'race', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'a', 'red', 'shirt', 'is', 'competing', 'in', 'a', 'race', '.', '<eos>']
+gt: ['a', 'man', 'in', 'a', 'red', 'shirt', 'entering', 'an', 'establishment', '.']
+
+mcts: ['two', 'men', 'in', 'bathing', 'suits', 'jumping', 'in', 'the', 'air', 'on', 'a', 'busy', 'beach', '.', '<eos>']
+greedy: ['two', 'men', 'in', 'swim', 'trunks', 'jumping', 'in', 'the', 'air', 'on', 'a', 'busy', 'beach', '.', '<eos>']
+gt: ['two', 'men', 'wearing', 'swim', 'trunks', 'jump', 'in', 'the', 'air', 'at', 'a', 'moderately', 'populated', 'beach', '.']
+
+mcts: ['a', 'young', 'child', 'is', 'cooking', 'with', 'another', 'person', '.', '<eos>']
+greedy: ['a', 'young', 'child', 'is', 'cooking', 'with', 'another', 'person', '.', '<eos>']
+gt: ['a', 'toddler', 'is', 'cooking', 'with', 'another', 'person', '.']
+
+mcts: ['a', '<unk>', 'and', 'two', 'children', 'are', '<unk>', 'in', 'front', 'of', 'their', 'home', 'with', 'a', 'tree', 'and', 'plants', '.', '<eos>']
+greedy: ['a', '<unk>', 'and', 'two', 'children', 'are', 'in', 'front', 'of', 'their', 'home', 'fight', 'with', 'a', 'tree', 'and', 'plants', '.', '<eos>']
+gt: ['a', 'father', '-', 'figure', 'and', 'two', 'children', 'outside', 'their', 'home', 'doing', 'yard', 'work', 'such', 'as', 'using', 'a', 'hoe', 'on', 'the', 'grass', 'and', 'planting', 'a', 'tree', '.']
+
+mcts: ['a', 'man', 'is', 'preparing', 'food', 'at', 'the', 'stove', '.', '<eos>']
+greedy: ['a', 'man', 'prepares', 'food', 'at', 'the', 'stove', '.', '<eos>']
+gt: ['a', 'man', 'cooking', 'food', 'on', 'the', 'stove', '.']
+
+mcts: ['a', 'man', 'in', 'jeans', 'plays', 'with', 'a', 'red', 'ball', 'on', 'a', 'beach', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'jeans', 'plays', 'with', 'a', 'red', 'ball', 'on', 'a', 'beach', '.', '<eos>']
+gt: ['a', 'man', 'in', 'jeans', 'at', 'the', 'beach', 'playing', 'with', 'a', 'red', 'ball', '.']
+
+mcts: ['people', 'are', 'walking', 'on', 'a', 'sidewalk', 'next', 'to', 'a', 'line', 'of', 'shops', '.', '<eos>']
+greedy: ['people', 'walking', 'on', 'a', 'sidewalk', 'next', 'to', 'a', 'line', 'of', 'stores', '.', '<eos>']
+gt: ['people', 'walking', 'down', 'sidewalk', 'next', 'to', 'a', 'line', 'of', 'stores', '.']
+
+mcts: ['a', '<unk>', 'is', 'doing', 'a', 'flip', 'while', 'the', 'high', 'rider', 'is', 'being', 'pulled', 'by', 'a', 'rope', '.', '<eos>']
+greedy: ['a', '<unk>', 'rider', 'is', 'doing', 'a', 'flip', 'as', 'he', 'is', 'being', 'pulled', 'by', 'a', 'rope', '.', '<eos>']
+gt: ['a', 'wakeboarder', 'performs', 'a', 'flip', 'while', 'being', 'towed', 'at', 'high', 'speed', '.']
+
+mcts: ['a', 'large', 'crowd', 'of', 'people', 'on', 'a', 'street', '.', '<eos>']
+greedy: ['a', 'large', 'crowd', 'of', 'people', 'are', 'on', 'a', 'street', '.', '<eos>']
+gt: ['a', 'large', 'group', 'of', 'people', 'fill', 'a', 'street', '.']
+
+mcts: ['a', 'man', 'in', 'a', 'dirty', 'water', 'walking', 'in', 'a', 'city', '.', '<eos>']
+greedy: ['a', 'man', 'walking', 'in', 'a', 'dirty', 'water', '.', '<eos>']
+gt: ['a', 'man', 'on', 'a', 'tag', 'line', 'going', 'into', 'the', 'water', '.']
+
+mcts: ['a', 'woman', 'in', 'jeans', 'walks', 'past', 'a', 'bus', 'that', 'is', 'looking', 'over', 'her', 'sunglasses', 'as', 'a', 'woman', 'in', 'her', 'sunglasses', '.', '<eos>']
+greedy: ['a', 'woman', 'in', 'jeans', 'walks', 'past', 'a', 'bus', 'that', 'is', 'looking', 'over', 'her', 'sunglasses', 'as', 'a', 'woman', 'in', 'her', 'sunglasses', '.', '<eos>']
+gt: ['a', 'woman', 'in', 'jeans', 'walks', 'by', 'a', 'bus', 'with', 'an', 'ad', 'depicting', 'a', 'woman', 'peering', 'over', 'her', 'sunglasses', '.']
+
+mcts: ['a', 'man', 'in', 'a', 'pink', 'shirt', 'is', 'sitting', 'on', 'the', 'grass', 'and', 'a', 'ball', 'in', 'the', 'air', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'a', 'pink', 'shirt', 'is', 'sitting', 'on', 'the', 'grass', 'and', 'a', 'ball', 'in', 'the', 'air', '.', '<eos>']
+gt: ['a', 'man', 'in', 'a', 'pink', 'shirt', 'is', 'sitting', 'in', 'the', 'grass', 'and', 'a', 'ball', 'is', 'in', 'the', 'air', '.']
+
+mcts: ['a', 'beach', 'is', '<unk>', 'a', 'car', 'on', 'the', 'beach', '.', '<eos>']
+greedy: ['a', 'beach', 'is', 'on', 'the', 'beach', '<unk>', '.', '<eos>']
+gt: ['a', 'car', 'parked', 'at', 'the', 'beach', '.']
+
+mcts: ['two', 'men', 'in', 'black', 'are', 'in', 'a', 'city', '.', '<eos>']
+greedy: ['two', 'men', 'in', 'black', 'are', 'in', 'a', 'city', '.', '<eos>']
+gt: ['two', 'men', 'wearing', 'black', 'in', 'a', 'city']
+
+mcts: ['the', 'man', 'in', 'yellow', 'pants', 'is', 'raising', 'his', 'arms', '.', '<eos>']
+greedy: ['the', 'man', 'in', 'yellow', 'pants', 'is', 'raising', 'his', 'arms', '.', '<eos>']
+gt: ['the', 'man', 'in', 'the', 'yellow', 'pants', 'is', 'raising', 'his', 'arms', '.']
+
+mcts: ['two', 'men', 'in', 'hats', 'and', 'hats', 'walk', 'by', 'water', 'near', 'a', 'body', 'of', 'water', '.', '<eos>']
+greedy: ['two', 'men', 'wearing', 'hats', 'and', 'hiking', 'boots', 'walk', 'next', 'to', 'water', 'at', 'a', 'body', 'of', 'water', '.', '<eos>']
+gt: ['two', 'men', 'wearing', 'hats', 'and', 'using', 'walking', 'sticks', 'are', 'walking', 'near', 'a', 'body', 'of', 'water', 'during', 'sundown', '.']
+
+mcts: ['a', 'school', 'group', 'is', 'doing', 'a', 'routine', 'in', 'the', 'chairs', '.', '<eos>']
+greedy: ['a', 'school', 'band', 'is', 'performing', 'in', 'chairs', '.', '<eos>']
+gt: ['a', 'cheerleading', 'team', 'doing', 'a', 'routine', 'on', 'chairs', '.']
+
+mcts: ['a', 'boy', 'playing', 'with', 'an', 'adult', '-', 'of', 'an', 'adult', 'man', 'in', 'a', 'picture', 'while', 'a', 'girl', 'watches', '.', '<eos>']
+greedy: ['a', 'boy', 'plays', 'with', 'an', 'adult', '-', 'haired', 'lady', 'outside', 'while', 'a', 'lady', 'watches', '.', '<eos>']
+gt: ['a', 'boy', 'is', 'playing', 'checkers', 'with', 'an', 'adult', 'shown', 'off', '-', 'screen', 'while', 'a', 'girl', 'looks', 'on', '.']
+
+mcts: ['a', 'group', 'of', 'people', 'having', 'fun', 'in', 'a', 'public', 'park', '.', '<eos>']
+greedy: ['a', 'group', 'of', 'people', 'having', 'fun', 'in', 'a', 'public', 'park', '.', '<eos>']
+gt: ['a', 'crowd', 'of', 'people', 'out', 'for', 'some', 'fun', 'in', 'public', 'park', '.']
+
+mcts: ['a', 'man', 'is', 'sitting', 'on', 'a', 'bench', 'while', 'holding', 'his', 'dog', '.', '<eos>']
+greedy: ['a', 'man', 'is', 'sitting', 'on', 'a', 'bench', 'while', 'holding', 'his', 'dog', '.', '<eos>']
+gt: ['a', 'man', 'sits', 'on', 'a', 'bench', 'holding', 'his', 'dog', 'and', 'looking', 'at', 'the', 'water', '.']
+
+mcts: ['a', 'young', 'boy', 'and', 'his', 'brother', 'are', 'playing', 'together', 'on', 'a', 'playground', '.', '<eos>']
+greedy: ['a', 'young', 'boy', 'and', 'his', 'brother', 'play', 'together', 'on', 'a', 'playground', '.', '<eos>']
+gt: ['a', 'boy', 'and', 'his', 'younger', 'brother', 'playing', 'together', 'at', 'the', 'playground', '.']
+
+mcts: ['a', 'woman', 'in', 'blue', 'looks', 'at', 'a', '<unk>', 'black', 'bench', 'while', 'people', 'sit', 'behind', 'her', 'and', '<unk>', '.', '<eos>']
+greedy: ['a', 'woman', 'in', 'blue', 'looks', 'at', 'a', 'woman', 'in', 'a', 'black', 'and', '<unk>', '<unk>', 'sits', 'on', 'a', 'bench', 'behind', 'her', '.', '<eos>']
+gt: ['a', 'woman', 'in', 'blue', 'looks', 'in', 'a', 'black', 'leather', 'bag', 'while', 'sitting', 'on', 'a', 'bench', 'during', 'a', 'sunny', 'afternoon', 'while', 'people', 'and', 'limousines', 'passed', 'behind', 'her', '.']
+
+mcts: ['the', 'brown', 'dog', 'is', 'standing', 'on', 'the', 'sandy', 'beach', '.', '<eos>']
+greedy: ['the', 'brown', 'dog', 'stands', 'on', 'the', 'sandy', 'beach', '.', '<eos>']
+gt: ['the', 'brown', 'dog', 'is', 'standing', 'on', 'the', 'sandy', 'beach', '.']
+
+mcts: ['a', 'woman', 'is', 'sitting', 'with', 'a', 'basket', 'full', 'of', 'fabric', 'with', 'cloth', '<eos>']
+greedy: ['a', 'woman', 'sits', 'with', 'a', 'basket', 'full', 'of', 'fabric', 'while', 'surrounded', 'by', 'cloth', '<eos>']
+gt: ['a', 'woman', 'is', 'sitting', 'with', 'a', 'basket', 'of', 'cloth', ',', 'surrounded', 'by', 'cloth', '.']
+
+mcts: ['a', 'man', 'is', 'cooking', 'in', 'his', 'yard', '.', '<eos>']
+greedy: ['a', 'man', 'is', 'grilling', 'in', 'his', 'yard', 'outdoors', '.', '<eos>']
+gt: ['a', 'man', 'is', 'grilling', 'out', 'in', 'his', 'backyard', '.']
+
+mcts: ['a', 'woman', 'is', 'singing', 'in', 'a', 'club', 'with', 'a', 'guitar', 'with', 'her', 'guitar', 'behind', 'her', '.', '<eos>']
+greedy: ['a', 'woman', 'is', 'singing', 'in', 'a', 'club', 'with', 'a', 'guitar', 'with', 'her', 'guitar', 'behind', 'her', '.', '<eos>']
+gt: ['a', 'woman', 'sings', 'in', 'a', 'club', 'with', 'a', 'guitarist', 'behind', 'her', '.']
+
+mcts: ['a', 'young', 'male', 'playing', 'a', 'guitar', 'in', 'a', 'red', '<unk>', 'city', '.', '<eos>']
+greedy: ['male', 'playing', 'guitar', 'in', 'a', '<unk>', 'basketball', 'game', '<eos>']
+gt: ['guitar', 'player', 'performs', 'at', 'a', 'nightclub', 'red', 'guitar', '.']
+
+mcts: ['a', 'child', 'is', 'sitting', 'in', 'a', 'lawn', 'chair', 'looking', 'at', 'the', 'camera', '.', '<eos>']
+greedy: ['a', 'child', 'sits', 'in', 'a', 'lawn', 'lawn', 'chair', 'and', 'looks', 'at', 'the', 'camera', '.', '<eos>']
+gt: ['a', 'child', 'sitting', 'on', 'a', 'lawn', 'chair', 'looking', 'up', 'at', 'the', 'camera']
+
+mcts: ['two', 'women', 'and', 'three', 'men', 'looking', 'at', 'the', 'ocean', '.', '<eos>']
+greedy: ['two', 'women', 'and', 'three', 'men', 'look', 'at', 'the', 'ocean', '.', '<eos>']
+gt: ['two', 'ladies', 'and', 'three', 'men', 'looking', 'at', 'the', 'ocean', '.']
+
+mcts: ['a', '<unk>', 'man', 'playing', 'a', 'violin', 'on', 'the', 'street', 'while', 'a', 'woman', 'with', 'a', 'blue', 'guitar', 'looks', 'on', '.', '<eos>']
+greedy: ['a', 'female', 'violin', 'with', 'a', 'violin', 'playing', 'a', 'guitar', 'while', 'a', 'woman', 'watches', '.', '<eos>']
+gt: ['a', 'female', 'performer', 'with', 'a', 'violin', 'plays', 'on', 'a', 'street', 'while', 'a', 'woman', 'with', 'a', 'blue', 'guitar', 'looks', 'on', '.']
+
+mcts: ['a', 'young', 'girl', 'swimming', 'in', 'a', 'pool', '.', '<eos>']
+greedy: ['a', 'young', 'girl', 'swimming', 'in', 'a', 'pool', '.', '<eos>']
+gt: ['a', 'young', 'girl', 'swimming', 'in', 'a', 'pool']
+
+mcts: ['a', 'group', 'of', 'children', 'are', 'outside', 'and', 'getting', 'ready', 'to', 'perform', 'tug', '-', 'of', '-', 'war', '.', '<eos>']
+greedy: ['several', 'children', 'are', 'outside', 'and', 'preparing', 'to', 'perform', 'tug', '-', 'war', '.', '<eos>']
+gt: ['several', 'children', 'are', 'outdoors', 'getting', 'ready', 'to', 'play', 'tug', '-', 'of', '-', 'war', '.']
+
+mcts: ['three', 'teenagers', 'on', 'a', 'subway', 'are', '<unk>', 'around', 'each', 'other', '.', '<eos>']
+greedy: ['three', 'teenagers', 'are', 'competing', 'around', 'a', 'subway', '.', '<eos>']
+gt: ['three', 'teenagers', 'in', 'a', 'subway', 'playing', 'around', '.']
+
+mcts: ['a', 'brown', 'dog', 'is', 'walking', 'through', 'the', 'grass', 'and', 'hanging', 'out', '.', '<eos>']
+greedy: ['a', 'brown', 'dog', 'is', 'walking', 'through', 'the', 'grass', 'with', 'his', 'tongue', 'hanging', 'out', '.', '<eos>']
+gt: ['a', 'brown', 'dog', 'walks', 'in', 'the', 'grass', 'with', 'its', 'tongue', 'hanging', 'out', '.']
+
+mcts: ['people', 'sit', 'in', 'the', 'grass', 'in', 'front', 'of', 'a', 'building', 'and', 'take', 'break', '.', '<eos>']
+greedy: ['people', 'sit', 'in', 'the', 'grass', 'in', 'front', 'of', 'a', 'building', 'and', 'take', 'break', '.', '<eos>']
+gt: ['people', 'sitting', 'in', 'the', 'grass', 'outside', 'a', 'building', ',', 'taking', 'a', 'break', '.']
+
+mcts: ['man', 'with', 'no', 'shirt', 'staring', 'into', 'the', 'distance', 'while', 'three', 'women', 'pass', 'by', 'a', 'crowd', 'of', 'people', 'walk', 'past', '.', '<eos>']
+greedy: ['man', 'with', 'no', 'shirt', 'staring', 'into', 'the', 'distance', 'while', 'three', 'women', 'pass', 'by', 'a', 'crowd', 'of', 'people', 'walk', 'past', '.', '<eos>']
+gt: ['shirtless', 'guy', 'staring', 'off', 'in', 'the', 'distance', 'while', 'three', 'woman', 'are', 'walking', 'past', 'a', 'crowd', 'sitting', 'outside', 'a', 'cafe', '.']
+
+mcts: ['two', 'boys', 'are', 'cleaning', 'fruit', 'on', 'a', 'bicycle', '.', '<eos>']
+greedy: ['two', 'boys', 'are', 'cleaning', 'fruit', 'on', 'a', 'bicycle', '.', '<eos>']
+gt: ['two', 'young', 'boys', 'putting', 'fruit', 'on', 'the', 'bike', '.']
+
+mcts: ['a', 'man', 'in', 'a', 'black', 'shirt', 'plays', 'a', 'drum', 'on', 'a', 'yellow', 'drum', 'set', 'of', 'drums', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'a', 'black', 't', '-', 'shirt', 'plays', 'a', 'drum', 'on', 'a', 'yellow', 'drum', 'set', '.', '<eos>']
+gt: ['a', 'man', 'in', 'a', 'black', 't', '-', 'shirt', ',', 'cap', 'and', 'jeans', 'is', 'playing', 'drums', 'on', 'an', 'upside', 'down', 'yellow', 'pail', '.']
+
+mcts: ['a', 'young', 'female', 'artist', 'is', 'painting', 'a', 'picture', 'on', 'a', 'wall', '.', '<eos>']
+greedy: ['a', 'young', 'female', 'artist', 'painting', 'a', 'picture', 'of', 'a', 'woman', 'on', 'a', 'wall', '.', '<eos>']
+gt: ['a', 'young', 'female', 'artists', 'paints', 'an', 'image', 'of', 'a', 'woman', 'on', 'a', 'wall', '.']
+
+mcts: ['two', 'male', '<unk>', 'in', 'the', 'middle', 'of', 'the', '<unk>', 'jump', ',', 'while', 'two', 'other', 'teams', 'are', 'seen', 'from', 'behind', 'him', '.', '<eos>']
+greedy: ['two', 'teams', 'of', 'the', '<unk>', 'jump', 'in', 'the', 'other', 'team', ',', 'are', 'surrounded', 'by', 'other', 'teams', '.', '<eos>']
+gt: ['two', 'female', 'members', 'of', 'team', 'usa', 'performing', 'a', 'jump', 'high', '-', 'five', 'surrounded', 'by', 'two', 'other', 'female', 'members', '.']
+
+mcts: ['a', 'man', 'stirring', 'a', 'pot', 'in', 'a', 'kitchen', '.', '<eos>']
+greedy: ['a', 'man', 'stirring', 'food', 'in', 'a', 'kitchen', 'in', 'his', 'kitchen', '.', '<eos>']
+gt: ['a', 'man', 'stirring', 'a', 'pot', 'of', 'liquid', 'in', 'this', 'kitchen', '.']
+
+mcts: ['a', 'boy', 'is', 'riding', 'a', 'lake', 'in', 'the', 'lake', '.', '<eos>']
+greedy: ['a', 'boy', 'is', 'riding', 'a', 'lake', 'in', 'the', 'lake', '.', '<eos>']
+gt: ['the', 'boy', 'is', 'wakeboarding', 'on', 'the', 'lake', '.']
+
+mcts: ['a', 'man', 'is', 'working', 'at', 'a', 'hotdog', 'stand', '.', '<eos>']
+greedy: ['a', 'man', 'works', 'a', 'hotdog', '.', '<eos>']
+gt: ['a', 'man', 'is', 'working', 'a', 'hotdog', 'stand', '.']
+
+mcts: ['a', 'large', 'group', 'of', 'people', 'are', 'sitting', 'on', 'different', 'activities', 'outside', 'and', 'sitting', 'together', 'outdoors', '.', '<eos>']
+greedy: ['a', 'large', 'group', 'of', 'people', 'are', 'sitting', 'together', 'and', 'sitting', 'outside', 'together', 'outdoors', '.', '<eos>']
+gt: ['a', 'large', 'group', 'of', 'people', 'of', 'various', 'ages', 'and', 'genders', 'sit', 'outside', 'together', '.']
+
+mcts: ['a', 'blond', 'woman', 'is', 'pouring', 'drinks', 'at', 'a', 'bar', '.', '<eos>']
+greedy: ['a', 'blond', 'woman', 'is', 'pouring', 'drinks', 'at', 'a', 'bar', '.', '<eos>']
+gt: ['a', 'blond', '-', 'haired', 'woman', 'is', 'pouring', 'drinks', 'at', 'a', 'bar', '.']
+
+mcts: ['a', 'young', 'child', 'in', 'a', 'blue', 'and', 'white', 't', '-', 'shirt', 'is', 'holding', 'a', 'yellow', 'plastic', 'yellow', 'plastic', 'yellow', 'plastic', 'toy', '.', '<eos>']
+greedy: ['a', 'young', 'child', 'in', 'a', 'blue', 'and', 'white', 't', '-', 'shirt', 'is', 'holding', 'a', 'yellow', 'plastic', 'yellow', 'plastic', 'yellow', 'plastic', 'toy', '.', '<eos>']
+gt: ['a', 'small', 'child', 'wearing', 'a', 'blue', 'and', 'white', 't', '-', 'shirt', 'happily', 'holding', 'a', 'yellow', 'plastic', 'alligator', '.']
+
+mcts: ['a', 'woman', 'in', 'black', 'with', 'pink', 'hair', 'is', 'talking', 'with', 'a', 'man', '.', '<eos>']
+greedy: ['a', 'woman', 'in', 'black', 'with', 'pink', 'hair', 'is', 'talking', 'with', 'a', 'man', '.', '<eos>']
+gt: ['a', 'woman', 'with', 'pink', 'hair', 'dressed', 'in', 'black', 'talks', 'to', 'a', 'man', '.']
+
+mcts: ['the', 'man', 'in', 'a', 'japanese', 'japanese', 'mask', 'is', 'preparing', 'to', 'eat', 'two', 'people', '.', '<eos>']
+greedy: ['the', 'man', 'in', 'the', 'japanese', 'japanese', 'mask', 'is', 'preparing', 'for', 'two', 'people', '.', '<eos>']
+gt: ['the', 'man', 'in', 'a', 'japanese', 'cooking', 'suit', 'is', 'preparing', 'a', 'meal', 'for', 'two', 'people', '.']
+
+mcts: ['a', 'girl', 'is', 'jumping', 'off', 'of', 'rocks', 'to', 'the', 'stream', 'of', 'water', '.', '<eos>']
+greedy: ['a', 'girl', 'jumps', 'off', 'of', 'rocks', 'to', 'the', 'stream', 'of', 'water', '.', '<eos>']
+gt: ['a', 'girl', 'hops', 'across', 'the', 'river', ',', 'from', 'rock', 'to', 'rock', '.']
+
+mcts: ['a', 'worker', 'with', 'a', '<unk>', 'is', 'kneeling', 'next', 'to', 'two', 'women', '.', '<eos>']
+greedy: ['a', 'worker', 'with', 'a', '<unk>', 'is', 'kneeling', 'next', 'to', 'two', 'women', '.', '<eos>']
+gt: ['a', 'male', 'worker', 'with', 'his', 'tool', 'box', 'is', 'kneeling', 'next', 'to', 'two', 'women', '.']
+
+mcts: ['an', 'older', 'man', 'is', 'laying', 'his', 'arms', 'and', 'looking', 'out', '.', '<eos>']
+greedy: ['an', 'older', 'man', 'is', 'laying', 'his', 'arms', 'and', 'looking', 'out', '.', '<eos>']
+gt: ['an', 'older', 'man', 'is', 'opening', 'his', 'arms', 'wide', 'and', 'looking', 'perplexed', '.']
+
+mcts: ['a', 'child', 'in', 'a', 'white', 'karate', 'uniform', 'is', 'practicing', 'a', 'karate', 'match', '.', '<eos>']
+greedy: ['a', 'child', 'in', 'a', 'white', 'karate', 'uniform', 'is', 'practicing', 'a', 'karate', 'move', '.', '<eos>']
+gt: ['a', 'child', 'in', 'a', 'white', 'karate', 'outfit', 'practicing', 'a', 'move']
+
+mcts: ['three', 'men', 'in', 'hard', 'vests', 'are', 'holding', 'signs', 'outside', '.', '<eos>']
+greedy: ['three', 'men', 'in', 'vests', 'hold', 'each', 'other', 'outside', '.', '<eos>']
+gt: ['three', 'men', 'in', 'same', 'colored', 'vests', 'are', 'in', 'the', 'outdoors', '.']
+
+mcts: ['a', 'woman', 'is', 'taking', 'a', 'picture', 'of', 'a', 'baby', 'in', 'a', 'pink', 'hat', 'with', 'a', 'man', 'who', 'is', 'being', 'carried', 'by', 'a', 'man', '.', '<eos>']
+greedy: ['a', 'woman', 'is', 'taking', 'a', 'picture', 'of', 'a', 'baby', 'in', 'a', 'pink', 'hat', 'with', 'a', 'man', 'who', 'is', 'being', 'carried', 'by', 'a', 'man', '.', '<eos>']
+gt: ['a', 'woman', 'takes', 'a', 'picture', 'of', 'a', 'baby', 'wearing', 'a', 'pink', 'hat', 'while', 'a', 'man', 'carries', 'her', '.']
+
+mcts: ['a', 'group', 'of', 'asian', 'children', 'are', 'sitting', 'in', 'blue', 'chairs', 'while', 'sitting', 'down', '.', '<eos>']
+greedy: ['a', 'group', 'of', 'asian', 'children', 'are', 'sitting', 'in', 'blue', 'chairs', 'while', 'sitting', 'down', '.', '<eos>']
+gt: ['a', 'group', 'of', 'mostly', 'asian', 'children', 'sitting', 'at', 'cubicles', 'in', 'blue', 'chairs', '.']
+
+mcts: ['a', 'young', 'boy', 'in', 'a', 'soccer', 'uniform', 'is', 'holding', 'his', 'face', 'and', 'crying', '.', '<eos>']
+greedy: ['a', 'young', 'boy', 'in', 'a', 'soccer', 'uniform', 'is', 'holding', 'his', 'face', 'and', 'crying', '.', '<eos>']
+gt: ['a', 'young', 'boy', 'in', 'a', 'soccer', 'uniform', 'crying', 'into', 'his', 'palms', '.']
+
+mcts: ['a', 'happy', 'woman', 'is', '<unk>', 'into', 'a', 'coffee', 'shop', '.', '<eos>']
+greedy: ['a', 'happy', 'woman', 'is', 'making', 'a', 'coffee', 'shop', '.', '<eos>']
+gt: ['a', 'happy', 'woman', 'is', 'preparing', 'a', 'refreshment', 'at', 'a', 'coffee', 'shop', '.']
+
+mcts: ['a', 'construction', 'worker', 'moving', 'a', 'construction', 'site', 'on', 'a', 'construction', 'site', '.', '<eos>']
+greedy: ['a', 'construction', 'worker', 'moving', 'equipment', 'in', 'a', 'construction', 'site', '.', '<eos>']
+gt: ['a', 'construction', 'worker', 'is', 'driving', 'heavy', 'equipment', 'at', 'a', 'work', 'site', '.']
+
+mcts: ['a', 'woman', 'is', 'running', 'after', 'a', 'softball', ',', 'while', 'the', 'catcher', 'is', 'about', 'to', 'hit', 'the', 'ball', '.', '<eos>']
+greedy: ['a', 'woman', 'runs', 'after', 'a', 'softball', 'player', "'s", 'softball', 'takes', 'a', 'softball', 'while', 'the', 'referee', 'watches', '.', '<eos>']
+gt: ['a', 'woman', 'runs', 'after', 'making', 'a', 'hit', 'in', 'women', "'s", 'softball', ',', 'the', 'catcher', 'rises', 'to', 'her', 'feet', '.']
+
+mcts: ['a', 'man', 'in', 'work', 'clothing', 'is', 'hands', 'another', 'person', 'with', 'a', 'tool', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'work', 'attire', 'hands', 'another', 'person', 'with', 'a', 'tool', '.', '<eos>']
+gt: ['a', 'man', 'in', 'a', 'work', 'uniform', 'passing', 'a', 'tool', 'to', 'another', 'person', '.']
+
+mcts: ['a', 'group', 'of', 'people', 'climbing', 'in', 'the', 'cold', 'weather', '.', '<eos>']
+greedy: ['a', 'group', 'of', 'people', 'climbing', 'in', 'the', 'cold', 'weather', '.', '<eos>']
+gt: ['a', 'group', 'of', 'people', 'are', 'climbing', 'in', 'cold', 'weather', '.']
+
+mcts: ['a', 'rock', 'climber', 'with', 'a', 'blue', 'helmet', 'is', '<unk>', 'with', 'the', '<unk>', '.', '<eos>']
+greedy: ['a', 'climber', 'wearing', 'a', 'blue', 'helmet', 'is', '<unk>', 'with', 'the', '<unk>', '.', '<eos>']
+gt: ['a', 'mountaineer', 'about', 'to', 'descend', 'down', 'a', 'mountain', 'with', 'a', 'blue', 'helmet', 'on', '.']
+
+mcts: ['a', 'man', 'doing', 'a', 'handstand', 'on', 'a', 'round', 'sculpture', '.', '<eos>']
+greedy: ['a', 'man', 'doing', 'a', 'handstand', 'on', 'a', 'round', 'sculpture', '.', '<eos>']
+gt: ['a', 'man', 'doing', 'handstand', 'on', 'top', 'of', 'a', 'round', 'statue', '.']
+
+mcts: ['a', 'child', 'sits', 'at', 'a', 'restaurant', 'table', 'and', 'holding', 'a', '<unk>', 'face', '.', '<eos>']
+greedy: ['a', 'child', 'sits', 'at', 'a', 'restaurant', 'table', 'holding', 'a', '<unk>', 'face', '.', '<eos>']
+gt: ['a', 'child', 'sitting', 'at', 'a', 'restaurant', 'table', 'holding', 'a', 'paper', 'mask', 'against', 'his', 'face', '.']
+
+mcts: ['a', 'brown', 'dog', 'wading', 'into', 'a', 'lake', 'to', 'catch', 'a', 'stick', '.', '<eos>']
+greedy: ['a', 'brown', 'dog', 'wading', 'into', 'a', 'lake', 'to', 'catch', 'a', 'stick', '.', '<eos>']
+gt: ['a', 'brown', 'dog', 'wades', 'into', 'a', 'lake', 'to', 'retrieve', 'a', 'stick', '.']
+
+mcts: ['a', 'mother', 'is', 'putting', 'her', 'two', 'young', 'their', 'son', 'on', 'a', 'very', 'rocky', 'shoreline', 'at', 'the', 'shore', 'by', 'the', 'water', '.', '<eos>']
+greedy: ['a', 'mother', 'is', 'fixing', 'her', 'two', 'small', 'water', 'on', 'a', 'very', 'blue', 'rocky', 'shoreline', 'at', 'the', 'shore', '.', '<eos>']
+gt: ['a', 'mother', 'teaches', 'her', 'two', 'young', 'boys', 'to', 'fish', 'off', 'of', 'a', 'rocky', 'coast', 'into', 'very', 'blue', 'water', '.']
+
+mcts: ['a', 'young', 'child', 'is', 'walking', 'next', 'to', 'red', 'chairs', '.', '<eos>']
+greedy: ['a', 'young', 'child', 'is', 'walking', 'next', 'to', 'red', 'chairs', '.', '<eos>']
+gt: ['a', 'little', 'kid', 'is', 'walking', 'next', 'to', 'red', 'banners', '.']
+
+mcts: ['a', 'young', 'girl', 'is', 'sitting', 'on', 'a', 'bicycle', 'with', 'a', 'younger', 'boy', 'on', 'a', 'bicycle', 'while', 'another', 'girl', 'takes', 'a', 'picture', '.', '<eos>']
+greedy: ['a', 'girl', 'sits', 'on', 'a', 'bicycle', 'with', 'a', 'younger', 'boy', 'on', 'a', 'bicycle', 'while', 'another', 'girl', 'takes', 'a', 'picture', '.', '<eos>']
+gt: ['a', 'girl', 'sits', 'on', 'a', 'decorated', 'bike', 'with', 'a', 'younger', 'boy', 'while', 'another', 'girl', 'takes', 'a', 'picture', '.']
+
+mcts: ['a', 'black', 'dog', 'is', 'getting', 'a', 'ball', 'into', 'the', 'water', '.', '<eos>']
+greedy: ['a', 'black', 'dog', 'is', 'getting', 'a', 'ball', 'into', 'the', 'water', '.', '<eos>']
+gt: ['a', 'black', 'dog', 'is', 'retrieving', 'a', 'ball', 'in', 'water', '.']
+
+mcts: ['a', 'man', 'in', 'white', 'pants', 'and', 'a', 'blue', 'shirt', 'kicks', 'a', 'yellow', 'yellow', 'soccer', 'ball', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'white', 'pants', 'and', 'a', 'blue', 'shirt', 'kicks', 'a', 'yellow', 'yellow', 'soccer', 'ball', '.', '<eos>']
+gt: ['a', 'man', 'in', 'white', 'pants', 'and', 'a', 'blue', 'shirt', 'is', 'kicking', 'a', 'yellow', 'boxing', 'bag', '.']
+
+mcts: ['two', 'indian', 'men', 'are', 'taking', 'part', 'in', 'a', 'ceremony', '.', '<eos>']
+greedy: ['two', 'indian', 'men', 'are', 'taking', 'part', 'in', 'a', 'ceremony', '.', '<eos>']
+gt: ['two', 'indian', 'men', 'participating', 'in', 'a', 'ceremony', '.']
+
+mcts: ['a', 'young', 'boy', 'with', 'his', 'nose', 'and', 'nose', 'is', 'standing', 'in', 'a', 'video', 'game', '.', '<eos>']
+greedy: ['a', 'boy', 'with', 'his', 'nose', 'and', 'nose', 'is', 'standing', 'in', 'a', 'video', 'game', '.', '<eos>']
+gt: ['a', 'boy', 'with', 'a', 'bruised', 'nose', 'and', 'writing', 'on', 'his', 'hands', 'is', 'standing', 'in', 'a', 'video', 'rental', 'store', '.']
+
+mcts: ['two', '<unk>', 'paddle', 'a', 'canoe', 'on', 'the', 'ocean', 'at', 'sunset', '.', '<eos>']
+greedy: ['two', '<unk>', 'paddle', 'in', 'a', 'canoe', 'on', 'the', 'ocean', 'during', 'sunset', '.', '<eos>']
+gt: ['two', 'silhouetted', 'people', 'paddle', 'a', 'canoe', 'on', 'the', 'ocean', 'during', 'sunset', '.']
+
+mcts: ['people', 'are', 'standing', 'in', 'a', 'crowded', 'subway', 'platform', 'outside', 'the', 'window', '.', '<eos>']
+greedy: ['people', 'are', 'standing', 'in', 'a', 'crowded', 'subway', 'platform', 'outside', 'the', 'window', '.', '<eos>']
+gt: ['people', 'are', 'standing', 'on', 'a', 'crowded', 'subway', ',', 'and', 'the', 'platform', 'outside', 'is', 'visible', 'through', 'the', 'window', '.']
+
+mcts: ['man', 'climbing', 'a', 'street', 'with', 'fire', '.', '<eos>']
+greedy: ['man', 'climbing', 'wall', 'with', 'fire', 'in', 'hand', '.', '<eos>']
+gt: ['man', 'scaling', 'wall', 'with', 'fire', 'in', 'hand']
+
+mcts: ['two', 'brown', 'dogs', 'running', 'through', 'the', 'snow', '.', '<eos>']
+greedy: ['two', 'brown', 'dogs', 'running', 'through', 'the', 'snow', '.', '<eos>']
+gt: ['two', 'brown', 'dogs', 'are', 'running', 'through', 'the', 'snow', '.']
+
+mcts: ['a', 'small', 'band', 'playing', 'a', 'small', 'instrument', 'for', 'a', 'band', '.', '<eos>']
+greedy: ['a', 'small', 'band', 'playing', 'a', 'game', 'of', 'band', '.', '<eos>']
+gt: ['on', 'stage', 'photo', 'of', 'small', 'band', 'performing', 'for', 'theater', 'audience', '.']
+
+mcts: ['a', 'baby', 'in', 'a', '<unk>', 'looking', 'at', 'the', 'camera', '.', '<eos>']
+greedy: ['a', 'baby', 'in', 'a', 'baby', 'looking', 'at', 'the', 'camera', '.', '<eos>']
+gt: ['a', 'baby', 'in', 'a', 'christmas', 'outfit', 'looks', 'at', 'the', 'camera', '.']
+
+mcts: ['a', 'man', 'is', 'sitting', 'next', 'to', 'a', '<unk>', '.', '<eos>']
+greedy: ['a', 'man', 'sits', 'next', 'to', 'a', '<unk>', '.', '<eos>']
+gt: ['a', 'man', 'is', 'sitting', 'next', 'to', 'a', 'computer', 'monitor', '.']
+
+mcts: ['this', 'is', 'a', 'woman', 'is', 'playing', 'a', 'card', ',', 'and', 'laughing', '.', '<eos>']
+greedy: ['this', 'is', 'a', 'woman', 'is', 'having', 'a', 'funny', 'faces', 'and', 'is', 'laughing', 'and', 'the', 'female', 'is', 'laughing', '.', '<eos>']
+gt: ['this', 'lady', 'has', 'heard', 'a', 'funny', 'joke', 'and', 'laughing', '.']
+
+mcts: ['people', 'in', 'a', 'building', 'a', 'picture', 'of', 'them', 'taking', 'a', 'picture', '.', '<eos>']
+greedy: ['people', 'in', 'a', 'building', ',', 'one', 'taking', 'a', 'picture', 'of', 'them', 'taking', 'a', 'picture', '.', '<eos>']
+gt: ['people', 'inside', 'of', 'a', 'building', ',', 'one', 'is', 'taking', 'a', 'photo', '.']
+
+mcts: ['four', 'white', 'dogs', 'with', 'muzzles', 'jumping', 'over', 'a', 'red', 'wall', '.', '<eos>']
+greedy: ['four', 'white', 'dogs', 'with', 'muzzles', 'jumping', 'over', 'a', 'red', 'wall', '.', '<eos>']
+gt: ['four', 'white', 'dogs', 'with', 'muzzles', 'jump', 'over', 'a', 'red', 'wall', '.']
+
+mcts: ['the', 'woman', 'in', 'the', 'blue', 'shirt', 'is', 'holding', 'a', 'baby', '.', '<eos>']
+greedy: ['the', 'woman', 'in', 'the', 'blue', 'shirt', 'is', 'holding', 'a', 'baby', '.', '<eos>']
+gt: ['the', 'woman', 'with', 'the', 'blue', 'shirt', 'is', 'holding', 'a', 'baby', '.']
+
+mcts: ['two', 'people', 'are', 'sitting', 'on', 'striped', '<unk>', 'fishing', 'in', 'a', 'body', 'of', 'water', '.', '<eos>']
+greedy: ['two', 'people', 'sit', 'on', 'striped', 'striped', 'chairs', 'and', 'fishing', 'in', 'a', 'body', 'of', 'water', '.', '<eos>']
+gt: ['two', 'people', 'are', 'sitting', 'fishing', 'on', 'striped', 'beach', 'chairs', 'in', 'a', 'body', 'of', 'water', '.']
+
+mcts: ['an', 'old', 'woman', 'is', 'sitting', 'at', 'a', 'loom', '.', '<eos>']
+greedy: ['an', 'old', 'woman', 'is', 'sitting', 'at', 'a', 'loom', '.', '<eos>']
+gt: ['an', 'old', 'woman', 'working', 'at', 'a', 'loom', 'making', 'cloth', '.']

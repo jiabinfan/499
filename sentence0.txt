@@ -1,0 +1,4 @@
+
+mcts: ['a', 'man', 'in', 'an', 'orange', 'hat', '<unk>', 'something', '.', '<eos>']
+greedy: ['a', 'man', 'in', 'an', 'orange', 'hat', 'is', '<unk>', 'something', '.', '<eos>']
+gt: ['a', 'man', 'in', 'an', 'orange', 'hat', 'starring', 'at', 'something', '.']
